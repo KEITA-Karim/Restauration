@@ -11,7 +11,7 @@
   }
   
   /* Style the header */
-  .header_1 {
+  .header {
     background-color: #FFFAF0;
     padding: 20px 20px 88px;
     text-align:left;
@@ -68,9 +68,32 @@
   /* Style the footer */
   .footer {
     background-color: #000000;
-    padding: 100px;
+    padding: 50px;
     text-align: center;
   }
+
+  
+  .footerLink ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  .footerLink li  {
+    float: left;
+  }
+  
+  .footerLink li a {
+    display: inline-block;
+    /* color: white; */
+    /* text-align: center; */
+    padding: 0px 171px;
+    text-decoration: none;
+  }
+
+
   .connect_1 {
       display: table; /* keep the background color wrapped tight */
       margin: 0px auto 0px auto; /* keep the table centered */
@@ -88,11 +111,7 @@
     }
   }
 
-
-  /* page2 (CSS) */
-
-
-  /* Style the header */
+ 
   .btn {
     background-color: #1E90FF;
     width: 398px;
@@ -113,8 +132,13 @@
     display: table;
     clear: both;
   }
+
+  .food_express {
+    color: brown;
+    float: left;
+    text-decoration: underline;
+  }
   
-  /* Style the footer */
   
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
   @media (max-width: 600px) {
