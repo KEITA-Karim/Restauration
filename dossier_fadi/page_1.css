@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  .bodypage_1 {
+    background-image: url('img/delivery.jpeg');
+  }
+  
+  /* Style the header */
+  .header_1 {
+    background-color: #FFFAF0;
+    padding: 20px 20px 88px;
+    text-align:left;
+    font-style: italic;
+    text-decoration: underline;
+    color: #1E90FF;
+    text-shadow: 2px 2px 2px #000000;
+    height: 100px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #1E90FF;
+  }
+
+  /* Container for flexboxes */
+  .row_1 {
+    display: -webkit-flex;
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column_1 {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 25px;
+    height: 650px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Style the footer */
+  .footer {
+    background-color: #000000;
+    padding: 100px;
+    text-align: center;
+  }
+  .connect_1 {
+      display: table; /* keep the background color wrapped tight */
+      margin: 0px auto 0px auto; /* keep the table centered */
+      color:#ffffff;
+      font-size: 30px;
+      font-weight: 900;
+  }
+  
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    .row_1 {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  }
+
+
+  /* page2 (CSS) */
+
+
+  /* Style the header */
+  .btn {
+    background-color: #1E90FF;
+    width: 398px;
+  }
+   
+  /* Create three equal columns that floats next to each other */
+  .column_2 {
+    float: left;
+    width: 33.33%;
+    padding:15px 45px;
+    height: 2000px; /* Should be removed. Only for demonstration */
+    background-color: #FFFAF0
+  }
+  
+  /* Clear floats after the columns */
+  .row_2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the footer */
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    .column_2 {
+      width: 100%;
+    }
+  }
