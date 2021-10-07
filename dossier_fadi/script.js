@@ -1,11 +1,11 @@
 const Users = {
-    "nom":["safar"],
-    "prenom": ["fadi"],
-    "email":["fadi@hotmail.com"],
-    "motDePasse":["fadi"],
-    "phone":["09999999"],
-    "adresse":["12 rue de mais"],
-    "codePostal":["93209"]
+    "nom":[],
+    "prenom": [],
+    "email":[],
+    "motDePasse":[],
+    "phone":[],
+    "adresse":[],
+    "codePostal":[]
 }
 
 $(document).ready(function(){
@@ -44,15 +44,12 @@ $("#connecter").click(function(){
     let newemail= document.getElementById("exampleInputEmail1").value
     let newpassword= document.getElementById("exampleInputPassword1").value
 
-
-    
-
     for (let i = 0; i < Users.email.length && i < Users.motDePasse.length ; i++ ) {
 
         if (newemail== Users.email[i] && newpassword==Users.motDePasse[i]){
 
                 // alert("bienvenue")
-                window.open("./page_2.html");
+                window.open("./commander.html");
 
             }else{
 
@@ -131,3 +128,9 @@ $(document).ready(function(){
               location.reload(); 
     })
 })
+
+
+
+
+
+
