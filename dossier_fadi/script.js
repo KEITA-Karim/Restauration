@@ -32,10 +32,10 @@ $("#inscrire").click(function(){
         Users.codePostal.push(codePostal)
 
     }else{
-        console.log("Veuillez remplir les champs")
+        alert ("Veuillez remplir les champs")
     }
 
-    console.log(Users)
+
 })
 
 
