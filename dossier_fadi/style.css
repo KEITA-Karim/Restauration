@@ -12,7 +12,10 @@
   
   /* Style header */
   .header {
-    background-color: #FFFAF0;
+    background-image: url('img/logo.png');
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-color: white;
     padding: 20px 20px 88px;
     text-align:left;
     font-style: italic;
@@ -79,6 +82,7 @@
     background-color: #000000;
     padding: 50px;
     text-align: center;
+    color: white;
   }
 
   .footerLink ul {
@@ -142,7 +146,7 @@
 
   .food_express {
     color:#1E90FF;
-    float: left;
+    float:left;
     text-decoration: underline;
   }
   
@@ -153,11 +157,11 @@
       width: 100%;
     }
   }
-/* 
+
   input, label {
     display: block;
   }
-   */
+  
   input[type=file]::-webkit-file-upload-button {
     border: 1px solid grey;
     background: #1E90FF;
