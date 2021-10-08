@@ -32,7 +32,7 @@ $("#inscrire").click(function(){
         Users.codePostal.push(codePostal)
 
     }else{
-        console.log("rempli les champs")
+        console.log("Veuillez remplir les champs")
     }
 
     console.log(Users)
@@ -48,12 +48,12 @@ $("#connecter").click(function(){
 
         if (newemail== Users.email[i] && newpassword==Users.motDePasse[i]){
 
-                // alert("bienvenue")
+                 alert("Vous êtes connecté! appuyez sur ok pour accéder au site")
                 window.open("./commander.html");
 
             }else{
 
-            alert("veuillez ressaisir vos données!!")
+            alert("Veuillez ressaisir vos données!!")
         }        
         
     }
@@ -77,7 +77,7 @@ $(document).ready(function(){
                     
                 }else{
     
-                alert("veuillez ressaisir vos données!!")
+                alert("Veuillez ressaisir vos données!!")
             }        
     })
 
@@ -112,13 +112,13 @@ $(document).ready(function(){
             Users.adresse.push(adresse_1)
             Users.codePostal.push(codePostal_1)
     
-              alert("Nous avons modifié vos information")
+              alert("Nous avons modifié vos informations")
               console.log(Users)
               location.reload();
                     
                 }else{
     
-                alert("veuillez ressaisir vos données!!")
+                alert("Veuillez ressaisir vos données!!")
             }        
     })
 
