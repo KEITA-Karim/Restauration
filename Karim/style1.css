@@ -43,7 +43,7 @@
 
   /* le change de couleur du a */
   .navbar a:hover {
-    background-color: grey;
+    background-color: #2874A6;
     color: black;
   }
   
@@ -51,6 +51,14 @@
   .navbar a.active {
     background-color: #802;
     color: white;
+  }
+
+
+  /*Div blank*/
+  .blank {
+    width: 1519px;
+    height: 100px;
+    background-color:#FAFAFA;
   }
   
   /* le style donnée a ma class row  */
@@ -85,7 +93,7 @@
     text-decoration: none;
   }
   .Menus a:hover {
-    background-color: grey;
+    background-color:  #2874A6;
     color: black;
   }
   .Menus h2{
@@ -111,6 +119,18 @@
     flex: 20%;
     background-color: #C3C6C8;
     padding: 20px;
+    
+    background-color: white;
+    animation-name: animation1;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes animation1 {
+    from {background-color: white;}
+    to {background-color: #82B8DB;}
+    to {background-color:#2874A6;}
+   
   }
 
  
@@ -133,7 +153,7 @@
   }
 
   .footer a:hover {
-    background-color: grey;
+    background-color: #2874A6;
     color: black;
   }
   

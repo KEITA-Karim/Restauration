@@ -17,12 +17,10 @@
     color: #2874A6;
   }
   
-  /* ici on defini la taille du h1 qui ce de trouve dans le header de cette façon */
   .header h1 {
     font-size: 40px;
   }
   
-  /*  ici c'est ma navbard et grace au -webkit-sticky je definis mon petit effet*/
   .navbar {
     overflow: hidden;
     background-color: black;
@@ -31,7 +29,6 @@
     top: 0;
   }
   
-  /*  ici je defini le style des lien qui ce trouve dans ma navbar */
   .navbar a {
     float: left;
     display: block;
@@ -41,18 +38,20 @@
     text-decoration: none;
   }
 
-  /* le change de couleur du a */
   .navbar a:hover {
-    background-color: grey;
+    background-color: #2874A6;
     color: black;
   }
+
   
-  /* la c'est l'effet donné sur le lien lorsque je met ma souris dessus  */
-  .navbar a.active {
-    background-color: #802;
-    color: white;
+  /*Div blank*/
+  .blank {
+    width: 1519px;
+    height: 100px;
+    background-color:#FAFAFA;
   }
-  
+
+
   /* le style donnée a ma class row  */
   .row {  
     display: -ms-flexbox; /* IE10 */
@@ -65,18 +64,16 @@
     color:black; 
   }
 
-  /* le style donnée a ma classe side*/
+  /* le style donnée à ma Div classe side*/
   .side {
     -ms-flex: 20%; /* IE10 */
     flex: 20%;
-    background-color: #C3C6C8;
     padding: 20px;
+    background-color:white;
   }
-   /* Div Menus contenu à intérieur div side*/
 
 
-
-  /* le style donnée a ma classe main*/
+  /* le style donnée à ma  Div classe main*/
   .main {   
     -ms-flex: 60%; /* IE10 */
     flex: 60%;
@@ -87,14 +84,42 @@
     text-align: center;
   }
  
+  /* Div liste, pour le choix des restaurants */
+  .liste {
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: white;
+    
+  }
+  
+
+
+
+
+  /*le style donnée à ma Div classe side2 */
   .side2 {
     -ms-flex: 20%; /* IE10 */
     flex: 20%;
-    background-color: #C3C6C8;
+    background-color: white;
     padding: 20px;
   }
 
  
+ 
+
+  .liste a {
+    float: center;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+
+  .liste a:hover {
+    background-color: #2874A6;
+    color: black;
+  }
 
  
   /* Footer */
@@ -116,7 +141,7 @@
   }
 
   .footer a:hover {
-    background-color: grey;
+    background-color: #2874A6;
     color: black;
   }
   
