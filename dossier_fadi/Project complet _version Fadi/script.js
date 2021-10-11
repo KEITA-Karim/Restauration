@@ -131,6 +131,54 @@ $(document).ready(function(){
 
 
 
+const total = {
+    "ceasar":[],
+    "saumon": [],
+  
+  }
+  
+        $(document).ready(function(){
+  
+            $("#commanderceasar").click(function(){
+                let ceasar = $("#saladeceasar_input").val()
+                 ceasar= ceasar * 13
+                if (ceasar!=="") {
+                    total.ceasar.push(ceasar)
+                    $("#sous-total-ceasar").append(total.ceasar);
+                    console.log(total)
+                }
+            })
+  
+            $("#commandersaumon").click(function(){
+                let saumon = $("#saumonfume_input").val()
+                saumon = saumon * 13.20
+                if (saumon!=="") {
+                    total.saumon.push(saumon)
+                    $("#sous-total-saumon").append(total.saumon);
+                    console.log(total)
+                }
+            })
+  
+  
+  
+            $("#validersalade_input").click(function(){
+                
+                let sous_total_salade = total.ceasar [0]+ total.saumon[0]
+                $("#sous-total-salade").append(sous_total_salade);
+  
+                console.log (sous_total_salade)
+  
+        
+    })
+  
+               
+           
+  
+  
+  })
+
+
+   
 
 
 

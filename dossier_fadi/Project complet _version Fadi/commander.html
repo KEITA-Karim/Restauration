@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>commander</title>
+</head>
+<body>
+  <header>
+    <div class="header">
+     <h1 style="font-size: 40px;">Saint-Denis &nbspFood-Express</h1>
+   </div>
+   </header>
+  <div class="nava">
+
+       <a href="accueil.html">Accueil</a>
+       <a href="commander.html">Cuisines</a>
+        <a href="regoiniez-nous.html">Rejoignez-nous</a>
+        <a href="apropos.html">Apropos</a>
+        <a href="contactez-nous.html">Contactez-nous</a>
+        <li style="float: right;"><button type="button" class="btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Gérer votre compte</button></li>
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel_1">Modifier vos informations de connexion</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-3">
+                      <label for="recipient-name" class="col-form-label">Votre Nom:</label>
+                      <input type="text" class="form-control" id="recipient-Nickname_1">
+                    </div>
+                    <div class="mb-3">
+                      <label for="recipient-name" class="col-form-label">Votre Prénom:</label>
+                      <input type="text" class="form-control" id="recipient-Firstname_1">
+                    </div>
+                    <div class="mb-3">
+                      <label for="recipient-name" class="col-form-label">Votre adresse mail:</label>
+                      <input type="email" class="form-control" id="recipient-email_1">
+                    </div>
+                    <div class="mb-3">
+                      <label for="message-text" class="col-form-label">Votre mot de passe:</label>
+                      <input type="password" class="form-control" id="recipient-password_1">
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="message-text" class="col-form-label">Votre téléphone:</label>
+                      <input type="text" class="form-control" id="recipient-mobile_1">
+                    </div>
+
+                    <div class="col-12">
+                      <label for="inputAddress" class="form-label">Adresse en Saint-Denis exclusivement</label>
+                      <input type="text" class="form-control" id="inputAdresse_1" placeholder="15 rue de ...">
+                    </div>
+        
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <label class="input-group-text" for="inputGroupSelect01">Code postal</label>
+                        </div>
+                        <select class="custom-select" id="inputGroupSelect01_1">
+                          <option selected>Choisissez</option>
+                          <option value="1">93200</option>
+                          <option value="2">93206</option>
+                          <option value="3">93210</option>
+                          <option value="3">93284</option>
+                        </select>
+                      </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="annuler">Annuler</button>
+                  <button type="button" class="btn btn-primary"  id="valid-modif">Valider les modifications</button>
+                </div>
+              </div>
+            </div>
+          </div> 
+      </div>
+      <div class="row_2">
+        <div class="column_2">
+          <a href="Choix_Restaurants_Italiens.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true"> Manger Italien</a>
+            <div class="card" style="width: 25rem;">
+                <img class="card-img-top" src="img/Raviolii.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Goutter le ravioli, le plat typique de la cuisine italienne. Le ravioli est à la base de viande, de légumes et de fromage et cuits à l'eau bouillante.</p>
+                </div>
+              </div> <br><br>
+              <div class="card" style="width: 25rem;">
+                <img class="card-img-top" src="img/spaghettis.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Envie d’un petit plat de pâtes qui sent bon l’Italie ? Rien de tel que des spaghettis sauce tomate à l’italienne !</p>
+                </div>
+              </div><br><br>
+
+              <div class="card" style="width: 25rem;">
+                <img class="card-img-top" src="img/pizza.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Commandez votre pizza préférée dans le restaurant italien de votre choix. Choisissez et degustez le pizza à l'italienne sans bouger de chez vous.</p>
+                </div>
+              </div><br><br>
+
+              <div class="card" style="width: 25rem;">
+                <img class="card-img-top" src="img/Boulette.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Qui peut résister à ces polpettes, des boulettes à l’italienne cuites dans une sauce tomatée ? N'attendez-pas Commandez votre plat de boulette et mangez le chaud.</p>
+                </div>
+              </div>
+
+
+
+        </div>
+        <div class="column_2">
+          <a href="Choix_Restaurants_Orientaux.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Manger Oriental</a>
+            <div class="card" style="width: 25rem;">
+                <img class="card-img-top" src="img/mezzes.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Les mezzés, incontournables de la cuisine libanaise. Les mezzés froids(Taboulé, Hommos). Les mezzés chauds (Kebbé,Feuilles de vigne farcies, Falafel).</p>
+                </div>
+              </div><br><br>
+
+              <div class="card" style="width: 25rem;">
+                <img class="card-img-top" src="img/Couscous.jpeg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Le couscous se compose de semoule de blé dur préparée à l'huile d'olive et de légumes, d'épices, de viande ou de poisson</p>
+                </div>
+              </div><br><br>
+
+              <div class="card" style="width: 25rem;">
+                <img class="card-img-top" src="img/fatayer.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Le fatayer, fata'ir, ou encore fitiir est une pâtisserie salée fourrée avec de la viande, des épinards ou du fromage. Il est issu de la cuisine levantine</p>
+                </div>
+              </div><br><br>
+
+              <div class="card" style="width: 25rem;" >
+                <img class="card-img-top" src="img/Baclawa.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Envie de sucré, commendez rapidement votre dessert oriental preferé.</p>
+                </div>
+              </div>
+        
+        
+        
+        </div>
+        <div class="column_2">
+          <a href="Choix_Restaurants_Indiens.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Manger Indien</a>
+            <div class="card" style="width: 25rem;">
+                <img class="card-img-top" src="img/poulet_tandoori.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Dans le monde indien, le tandoori désigne un poulet cuit sur un four de pierre en feu</p>
+                </div>
+              </div><br><br>
+
+
+              <div class="card" style="width: 25rem;">
+                <img class="card-img-top" src="img/gambas_tandoori.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Goutez les crevettes préparées avec la sauce tandoori.</p>
+                </div>
+              </div><br><br>
+
+
+              <div class="card" style="width: 25rem;">
+                <img class="card-img-top" src="img/pakora.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Les pakora sont des beignets de légumes. Il est possible de faire des pakora avec des aubergines, des courgettes, des pommes de terre et d'autres légumes.</p>
+                </div>
+              </div><br><br>
+
+              <div class="card" style="width: 25rem;">
+                <img class="card-img-top" src="img/kashmiri_pilau.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Kashmir pilau est une délicieuse variante du riz à base de noix, de fruits secs, de safran et de fruits frais. Pilau est un riz aromatisé avec diverses épices, puis gonflé avec l'ajout de légumes, de noix ou même de viandes.</p>
+                </div>
+              </div>
+        
+        
+        
+        
+        </div>
+      </div>
+      
+      <footer class="footer">
+        <p><strong>&copy;2021 - Saint-Denis Food-Express</strong></p>
+        <p><strong>12 rue de marché des fleurs - 93200 Saint-Denis - France</strong></p>
+        <div class="footerLink">
+          <ul>
+            <li>
+              <a href="apropos.html">Apropos</a>
+              <a href="regoiniez-nous.html">Rejoignez-nous</a>
+              <a href="contactez-nous.html">Contactez-nous</a>
+            </li>
+          </ul>
+        
+      </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

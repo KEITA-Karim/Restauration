@@ -110,6 +110,7 @@
       display: table; /* keep the background color wrapped tight */
       margin: 0px auto 0px auto; /* keep the table centered */
       color:#ffffff;
+      border: 1px solid white;
       font-size: 30px;
       font-weight: 900;
   }
